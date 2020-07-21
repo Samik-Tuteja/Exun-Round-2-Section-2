@@ -1,0 +1,16 @@
+function checkExam(array1, array2) {
+    var total = 0;
+    for (var i = 0; i < array1.length; i++) {
+      if (array1[i] == array2[i]) {
+        total = total + 4;
+      } else if (array2[i] === "") {
+        total = total + 0;
+      } else {
+        total = total - 1;
+      }
+    }
+    if (total < 0) {
+      total = 0;
+    }
+    return total;
+  } 

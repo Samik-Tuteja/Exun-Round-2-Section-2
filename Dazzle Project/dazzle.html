@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wecome to My Website</title>
+    <link rel="stylesheet" href="dazzle.css" />
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <div class="page">
+      <div class="left">
+    <h3>Guess the class!!</h3>
+    <button onclick="classfun()">Guess the Class!!</button>
+    <h2>Now let's see some of the math operations</h2>
+    <div class="square-root">
+      <p>Square root calculator:</p>
+      <input type="number" id="sqrt" placeholder="Enter a Number" />
+      <button onclick="saqrt()">Find square root</button>
+    </div>
+    <div class="square">
+      <p>Square calculator:</p>
+      <input type="number" id="square" placeholder="Enter a Number" />
+      <button onclick="square()">Find square</button>
+    </div>
+    <div class="circum">
+      <p>Circumference calculator</p>
+      <input type="number" id="radius" placeholder="Enter the radius" />
+      <button onclick="funcircum()">Find the Circumference</button>
+    </div>
+    <div class="rad-circle">
+      <p>Radius calculator</p>
+      <input
+        type="number"
+        id="radcircle"
+        placeholder="Enter the Circumference"
+      />
+      <button onclick="funradcir()">Find the radius</button>
+    </div>
+
+    <!-- Multiples starts -->
+    <p>
+      Find the Multiples of:
+    </p>
+    <input type="number" id="multiples" placeholder="Enter a number" />
+    <button onclick="getmultiples()">Get the multiples</button>
+    <button onclick="reset1()">Reset</button>
+    <p id="showmultiples"></p>
+    </div>
+
+    <!-- ------------------------------------------------Stop Watch -------------------------------------------------- -->
+    <div class="right">
+      <h2 class="h2">Stopwatch</h2>
+    <div class="stopwatch">
+      00:00:00
+    </div>
+<div class="controls">
+  <button onclick="start()">Start</button>
+  <button onclick="pause()">Pause</button>
+  <button onclick="restart()">Restart</button>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+    <script src="dazzle.js"></script>
+  </body>
+</html>
